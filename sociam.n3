@@ -8,19 +8,20 @@
 
 
 sociam:SOCIAM a owl:Project; a frapo:Investigation;
-  frapo:fundedBy dbpedia:Engineering_and_Physical_Sciences_Research_Council ;
-  frapo:hostInstitution dbpedia:University_of_Oxford ;
-  frapo:hostInstitution dbpedia:University_of_Edinburgh ;
-  frapo:hostInstitution dbpedia:University_of_Southampton ;
-  vivoweb:PrinipalInvestigator oxfordcs:Nigel_Shadbolt ;
-  owl:activeYearsStartDate 2010-05-01 ;
-  owl:activeYearsEndDate 2017-11-01 ;
-    
+    frapo:fundedBy dbpedia:Engineering_and_Physical_Sciences_Research_Council ;
+    frapo:hostInstitution dbpedia:University_of_Oxford ;
+    frapo:hostInstitution dbpedia:University_of_Edinburgh ;
+    frapo:hostInstitution dbpedia:University_of_Southampton ;
+    vivoweb:PrinipalInvestigator oxfordcs:Nigel_Shadbolt ;
+    owl:activeYearsStartDate 2010-05-01 ;
+    owl:activeYearsEndDate 2017-11-01 .        
+
+
 sociam:emax a a foaf:Person ;
     foaf:name "Max Van Kleek" ;
         pro:holdsRoleInTime :seniorRF ;
         scoro:makesContribution
             :chi2016-xray-paper ,
             :chi2015-qs-patient-paper,
-:chi2015-pro-social-deception …
+:chi2015-pro-social-deception.
 
