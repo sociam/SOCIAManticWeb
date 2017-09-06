@@ -1,0 +1,64 @@
+# RDF N3 definition for sociam.org
+
+@prefix sociam:  <http://sociam.org/terms#> .
+@prefix frapo: <http://purl.org/cerif/frapo/> .
+@prefix dbpedia: <http://dbpedia.org/ontology/> .
+@prefix vivoweb: <http://vivoweb.org/ontology/core> .
+@prefix oxfordcs: <http://www.cs.ox.ac.uk/terms#> .
+@prefix zooniverse: <http://www.zooniverse.org/projects/terms#>.
+
+sociam:SOCIAM a owl:Project; a frapo:Investigation;
+  frapo:fundedBy dbpedia:Engineering_and_Physical_Sciences_Research_Council ;
+  frapo:hostInstitution dbpedia:University_of_Oxford ;
+  frapo:hostInstitution dbpedia:University_of_Edinburgh ;
+  frapo:hostInstitution dbpedia:University_of_Southampton ;
+  vivoweb:PrinipalInvestigator oxfordcs:Nigel_Shadbolt ;
+  owl:activeYearsStartDate 2010-05-01 ;
+  owl:activeYearsEndDate 2017-11-01 ;
+
+sociam:Social Machine a owl:concept;
+  comment: environment comprising humans and technology interacting and producing outputs or action which would not be possible without both parties present.
+
+zooniverse:Zooniverse a owl:Project; a SM: Invesitgation;
+  SM:ownedBy dbpedia: Citizen_Science_Alliance ;
+  SM:hostInstitution dbpedia:University_of_Oxford ;
+  owl:activeYearsStartDate 2009-12-09;
+
+sociam:emax a a foaf:Person ;
+    foaf:name "Max Van Kleek" ;
+        pro:holdsRoleInTime :seniorRF ;
+        scoro:makesContribution
+            :chi2016-xray-paper ,
+            :chi2015-qs-patient-paper,
+:chi2015-pro-social-deception …
+
+sociam:kitten a a foaf:Person ;
+    foaf:name "Dean P Ottewell" ;
+        pro:holdsRoleInTime :intern ;
+        scoro:makesContribution
+            :chi2017-xray-archiever 
+
+sociam:sauyon a a foaf:Person ;
+    foaf:name "Sauyon Lee" ;
+        pro:holdsRoleInTime :intern ;
+        scoro:makesContribution
+            :chi2017-xray-archiever ,
+	    :chi2017-xray-pipeline,
+
+sociam:francisAndrew38 a a foaf:Person ;
+    foaf:name "Andrew Francis" ;
+        pro:holdsRoleInTime :intern ;
+        scoro:makesContribution
+            :chi2017-xray-archiever ,
+
+sociam:adam a foaf:Person ;
+    foaf:name "Adam Slack" ;
+        pro:holdsRoleInTime :intern ;
+        scoro:makesContribution
+            :chi2017-xray-archiever ,
+
+sociam:keir a foaf:Person ;
+    foaf:name "Keir Bowater" ;
+        pro:holdsRoleInTime :intern ;
+        scoro:makesContribution
+            :chi2017-sociam-website ,
